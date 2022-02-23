@@ -8,22 +8,16 @@
     <title>Youtube video detail page</video></title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://127.0.0.1:5500/style/style.css">
 
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <i class="fab fa-youtube"></i>
-            <span class="title">Youtube</span>
-        </div>
-        <div class="icons">
-            <i class="fas fa-search"></i>
-            <i class="fas fa-ellipsis-v"></i>
-        </div>
+    <!-- header.html include : iframe -->
+	<iframe src="http://127.0.0.1:5500/header.html" height="150px" width="100%"
+    style="overflow-x: hidden; overflow-y: hidden;" scrolling="no"></iframe>
 
-    </header>
+
     <section class="player">
         <video src="video/dog.mp4" controls></video>
     </section>
