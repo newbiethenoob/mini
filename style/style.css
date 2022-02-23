@@ -109,7 +109,7 @@ header .icons .fa-search{
 .info .actions {
     display: flex;
     justify-content: space-around;
-    marin: var(--side-padding) 0;
+    margin: var(--side-padding) 0;
 }
 
 .info .actions button{
