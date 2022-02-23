@@ -42,3 +42,6 @@ mini-project
 4. 채팅  
 5. 로그인/회원가입
 6. 마이페이지
+
+## 참고영상
+https://www.youtube.com/watch?v=67stn7Pu7s4&t=1000s
