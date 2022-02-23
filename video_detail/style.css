@@ -1,0 +1,48 @@
+:root{
+    /* color */
+    --white-color : white;
+    --black-color : black;
+    --blue-color : blue;
+    --red-color : red;
+    --darkgray-color: darkgrey;
+    --lightgray-color: lightgray;
+    /* size */
+    --side-padding: 12px;
+    --avatar-size: 26px;
+    /* font size  */
+    --font-large: 18px;
+    --font-medium: 14px;
+    --font-small: 12px;
+    --font-micro: 10px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto;
+}
+
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--side-padding);
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+header .logo{
+    font-size: var(--font-large);
+}
+
+header .logo i{
+    color: var(--red-color);
+}
+
+heder .icons .fa-search{
+    margin-right: var(--side-padding);
+}
