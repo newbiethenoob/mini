@@ -19,29 +19,27 @@
 /* category */
 #category_bar { 
     margin:0; 
-    display: flex;
     justify-content: space-between;
     padding: var(--side-padding);
-    background-color: var(--black-color);
-    color: var(--white-color);
+    background-color: var(--white-color);
+    color: var(--black-color);    
+    text-align: center;    
+}
+#category_bar ul {    
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 #category_bar li { 
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    width:20%; 
+    float: left;
+    padding: var(--side-padding);
     font-size:16px; 
-    text-align: center; 
-
-    float:left; 
-}
-#category_bar li:hover {
-    color: var(--blue-color);
 }
 #category_bar li a { 
     text-decoration-line: none;
-    display: flex; 
     padding:10px 0;  
-    color: var(--white-color);
     font-weight: bold;
+}
+.icon:hover {
+    color: var(--blue-color);
 }
