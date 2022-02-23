@@ -107,6 +107,7 @@ header .icons .fa-search{
 
 /* Action buttons */
 .info .actions {
+    list-style: none;
     display: flex;
     justify-content: space-around;
     marin: var(--side-padding) 0;
