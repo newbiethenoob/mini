@@ -1,0 +1,27 @@
+#footer { 
+    width:900px; 
+    margin:0 auto; 
+    padding:15px 0 40px;  
+    border-top:1px solid #ccc; 
+    position: relative; 
+}
+#footer p {
+    font-size:12px;
+}
+#footer .copy span { 
+    font-weight:bold; 
+    color:red; 
+}
+
+#footer .fmenu { 
+    position:absolute; 
+    top:15px; 
+    right:0; 
+}
+#footer .fmenu li { 
+    float:left; 
+    font-size:12px; 
+}
+#footer .fmenu span { 
+    margin:0 5px; 
+}
