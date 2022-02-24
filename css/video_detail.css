@@ -111,6 +111,7 @@ body > .info{
     flex-direction: column;
     font-size: var(--font-small);
     /* color: var(--darkgray-color); */
+    background-color: white;
 }
 
 .info .actions button i {
@@ -219,6 +220,7 @@ body > .info{
     display: flex;
     flex-direction: column;
 }
+
 
 /* React
 @media screen and (min-width:768px) {
