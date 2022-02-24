@@ -7,7 +7,7 @@
     --darkgray-color: darkgrey;
     --lightgray-color: lightgray;
     /* size */
-    --side-padding: 12px;
+    --side-padding: 10px;
     --avatar-size: 26px;
     /* font size  */
     --font-large: 18px;
@@ -22,70 +22,78 @@ header{
     justify-content: space-between;
     padding: var(--side-padding);
     background-color: var(--black-color);
-    width: 100%;
+    width: 99%;
     color: var(--white-color);
+
 }
 
 header .logo{
     display: inline-block;
-    padding-right: 20%;
+    padding-right: 40%;
     font-size: var(--font-large);
     font-weight: bold;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/    
 }
 
 header .logo i{
     color: var(--red-color);
 }
 
+.logo a{
+    list-style: none;
+    color: var(--white-color);
+    text-decoration-line: none;
+}
+
+
+
+/* search  */
 header .icons .fa-search{
     margin-right: auto;
 }
-
-/* search  */
 header .search{
     display: inline-block;
-    padding-right: 20%;
-    border: 1px solid blue;
+    /* padding-right: 10%; */
+    /* border: 1px solid blue; */
 }
-header .search .input{
+.search .input{
     font-size: 22px;
-    padding: var(--side-padding);
+    /* padding: var(--side-padding); */
     float: left;
+    /* border: 3px solid red; */
 }
 
 /* member */
 header .member-panel {
     display: inline-block;
     float: right;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
 }
 header .member-panel a{
     color: var(--white-color);
     text-decoration-line: none;
 }
 
-
 .header_top{
-    border: 1px solid red;
-    width: 95%;
+    /* border: 1px solid red; */
+    width: 100%;
     display: block;
 }
 
 /* category */
 #category_bar { 
     margin:0; 
-    padding: var(--side-padding);
+    padding: 18px var(--side-padding);
     background-color: var(--black-color);
     color: var(--white-color);    
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     height: 32px;
-    width: 95%;
+    width: 98%;
     display: block;
 }
 .cf {   
 
-    border: 1px solid aqua;
+    /*border: 1px solid aqua;*/
     height: 30px;
     list-style: none;
     margin: auto;
@@ -102,8 +110,8 @@ header .member-panel a{
     text-decoration-line: none;
     font-weight: bold;
 }
-.icon:hover {
-    color: var(--blue-color);
+#category_bar li:hover {
+    color: var(--red-color);
 }
 
 
