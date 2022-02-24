@@ -26,6 +26,29 @@
         display: inline-block;
         float: right;
     }
+    .upload{
+        border: 1px solid green;
+        height: 300px;
+    }
+    .upload_video{
+        float: left;
+        border: 1px solid red;
+        width: 322px;
+        margin: 3px;
+    }
+    /* .upload_video img{
+        float: left;
+    } */
+    .recommend{
+        float: left;
+        margin-right: 50px;
+    }
+    .recommend img{
+        border-radius: 50%;
+    }
+    .recommend li{
+        list-style: none;
+    }
 </style>
 <body>
     <!-- header-->
@@ -48,13 +71,40 @@
 
         <!-- 업로드한 동영상 -->
         <div class="upload">
-
+            <span class="head_title">업로드한 동영상</span><br>
+            <div class="upload_video">
+                <img src="image/upload소녀1.webp" alt="">
+                <li class="title">엄마 닮은 개를 본 아기강아지의 반응! 소녀와 첫만남</li>
+                <li class="views">조회수 30만회 . 10시간 전</li>
+            </div>
+            <div class="upload_video">
+                <img src="image/upload소녀1.webp" alt="">
+                <li class="title">엄마 닮은 개를 본 아기강아지의 반응! 소녀와 첫만남</li>
+                <li class="views">조회수 30만회 . 10시간 전</li>
+            </div>
+            <div class="upload_video">
+                <img src="image/upload소녀2.webp" alt="">
+                <li class="title">7마리 아기 강아지들의 첫 마당 산책</li>
+                <li class="views">조회수 123만회 . 12일 전</li>
+            </div>
         </div>
         <hr>
 
-        <!-- 구독한 채널 -->
-        <div class="subscribed">
-
+        <!-- 추천 채널 -->
+        <div class="recommended">
+            <span class="head_title">추천 채널</span><br>
+            <div class="recommend">
+                <img src="image/recommend-profile.jpg" alt="">
+                <li class="channel-name">소녀의 행성</li>
+                <li class="channel-views">구독자 3.47천명</li>
+                <button type="button" class="btn btn-outline-secondary btn-sm">구독</button>
+            </div>
+            <div class="recommend">
+                <img src="image/recommend-profile2.jpg" alt="">
+                <li class="channel-name">BAMMI</li>
+                <li class="channel-views">구독자 18.6만명</li>
+                <button type="button" class="btn btn-outline-secondary btn-sm">구독</button>
+            </div>
         </div>
     </div>
 
