@@ -28,8 +28,7 @@ body {
     text-align: center;
 }
 #wrapper {
-    position: relative;
-    height: 100%;
+    height: 1200px; 
 }
 
 #content {
@@ -71,6 +70,10 @@ h3 {
     border: none;
     background: #fff;
     font-size: 15px;
+}
+
+.join_title{
+    margin-top: 20px;
 }
 
 input {
