@@ -73,10 +73,6 @@ body > .info{
     margin-right: var(--side-padding);
 }
 
-.info .metadata .titleAndButton{
-    display: flex;
-}
-
 .info .metadata .titleAndButton .title{
     font-size: var(--font-medium);
     margin-right: var(--side-padding);
@@ -114,7 +110,7 @@ body > .info{
     display: flex;
     flex-direction: column;
     font-size: var(--font-small);
-    color: var(--darkgray-color);
+    /* color: var(--darkgray-color); */
 }
 
 .info .actions button i {
@@ -190,27 +186,27 @@ body > .info{
 
 .upNext .item img{
     flex: 1 1 35%;
-    margin-right: var(--side-padding);
+    margin-right: 30px;
 }
 .upNext .item .img img {
     width: 100%;
 }
 
 .upNext .item .info{
-    flex: 1 1 60%;
+    flex: 1 1 60%;    
+    display: flex;
+    flex-direction: column;
+    font-size: var(--font-medium);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.upNext .item .info .title{
+    margin-bottom: 5px;
 }
 
 .upNext .item .moreBtn{
     flex: 1 1 5%;
-}
-
-.upNext .item .info{
-    display: flex;
-    flex-direction: column;
-}
-
-.upNext .item .info .title{
-    font-size: var(--font-small);
 }
 
 .upNext .item .info .name,
