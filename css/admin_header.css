@@ -75,6 +75,15 @@ header .member-panel {
     border-radius: 50%;
     margin-right: 3px;
 }
+.member-panel .name{
+    /* border: 1px solid aqua; */
+    display: inline-block;
+    height: 30px;
+    float: right;
+    padding-top: 5px;
+    padding-left: 2px;
+
+}
 
 .header_top{
     /* border: 1px solid red; */

@@ -5,13 +5,35 @@ iframe {
     display: inline;
 }
 /* 프로필 */
-.profile-img img{
+.profile img{
     border-radius: 50%;
     float: left;
+    
 }
-.proile button{
+.profile,
+.profile-img {
+    /* border: 1px solid green; */
+    height: 80px;
+}
+.mp-info{
+    /* border: 1px solid rebeccapurple; */
     display: inline-block;
+    height: 80px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.mp-info .name{
+    font-size: 25px;
+}
+.mp-info .view{
+    color: rgb(114, 109, 109);
+}
+.profile .button{
+    /* border: 1px solid red; */
     float: right;
+    display: inline-block;
+    height: 80px;
+    padding-top: 50px;
 }
 
 /* 업로드한 동영상 */
@@ -24,6 +46,13 @@ iframe {
     /* border: 1px solid red; */
     width: 322px;
     margin: 3px;
+}
+.upload_video li{
+    list-style: none;
+}
+.upload_video .views{
+    margin-top: 5px;
+    color: darkgray;
 }
 /* .upload_video img{
     float: left;
