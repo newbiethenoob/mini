@@ -13,7 +13,7 @@ mini-project
 ### 💻 Developers
 👩 문예빈  
  https://github.com/newbiethenoob  
-👩 임단비
+👩 임단비  
 https://github.com/HayleyLim
 
 
@@ -26,8 +26,8 @@ https://youtu.be/lo2ugjBqqSI
 2/21 ~ 2/25  
 2/21 : 주제 기획/구성/계획/
         유튜브 구조 분석(와이어 프레이밍, 레이블링)   
-2/22 : 
-2/23 : 
+2/22 : 코딩
+2/23 : 코딩
 2/24 : ppt제작/발표 준비  
 2/25 : 발표  
 
@@ -44,7 +44,7 @@ https://youtu.be/lo2ugjBqqSI
 1. 관리자 페이지  
 2. 공지사항  
 3. 푸터  
-4. 댓글  
+~~4. 댓글 ~~ 
 5. 로그인/회원가입
 6. 마이페이지
 
