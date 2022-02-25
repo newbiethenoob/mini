@@ -48,5 +48,9 @@ https://youtu.be/lo2ugjBqqSI
 5. 로그인/회원가입
 6. 마이페이지
 
+## 사용 도구
+vs code  
+html, css, javascript, bootstrap
+
 ## 참고영상
 https://www.youtube.com/watch?v=67stn7Pu7s4&t=1000s
