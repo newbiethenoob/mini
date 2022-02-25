@@ -19,7 +19,7 @@ https://github.com/HayleyLim
 
 ## [주제] 유튜브 클론 코딩
  
-### 🎞 시연 영상!
+### 🎬 시연 영상!
 https://youtu.be/lo2ugjBqqSI
 
 ### 📝 일정  
