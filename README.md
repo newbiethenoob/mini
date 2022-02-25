@@ -12,9 +12,9 @@ mini-project
 
 ### 💻 Developers
 👩 문예빈  
-  🎈 https://github.com/newbiethenoob
+ https://github.com/newbiethenoob  
 👩 임단비
-
+https://github.com/HayleyLim
 
 
 ## [주제] 유튜브 클론 코딩
