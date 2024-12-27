@@ -47,8 +47,8 @@ https://youtu.be/lo2ugjBqqSI
 6. 마이페이지
 
 ## 사용 도구
-vs code  
-html, css, javascript, bootstrap
+
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white">  <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=flat&logo=Javascript&logoColor=white">  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=Javascript&logoColor=white">  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=Bootstrap&logoColor=white">  <img src="https://img.shields.io/badge/CSS-663399?style=flat&logo=Javascript&logoColor=white">
 
 ## 참고영상
 https://www.youtube.com/watch?v=67stn7Pu7s4&t=1000s
